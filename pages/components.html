@@ -105,13 +105,75 @@
 
             <section>
                 <h2>Parallax</h2>
-                <p>Columns</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla sapiente ratione itaque debitis provident enim ad aspernatur, vel facilis fugiat voluptatem beatae quis veniam maxime! Aut asperiores laborum ducimus non!</p>
                 
-                <div>example</div>
+                <div>Code Example</div>
 
                 <pre>
                     <code>
-                        &lt dsdsqsqwasdasd
+                        Method 01
+                        &lt!-- HTML --&gt
+
+                            &ltdiv class="parallax"&gt&ltimg src="images/bgImg01" alt="Crowd at a music festival"&gt&lt/div&gt
+
+                            &lth3&gtMusic Fest 2023&lt/h3&gt
+                            &ltp&gtLorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur explicabo blanditiis ipsa beatae fugit optio.&lt/p&gt
+
+                            &ltdiv class="parallax"&gt&ltimg src="images/bgImg02" alt="Fireworks display for Generic Band Name's finale set at Music Fest 2023"&gt&lt/div&gt
+
+                        &lt!-- CSS --&gt
+
+                            .parallax {                       
+                                /* Set a height */
+                                min-height: 300px;
+                        
+                                /* Code for parallax scroll effect */
+                                background-attachment: fixed;
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                            }
+
+
+                        Method 02
+                        &lt!-- HTML --&gt
+    
+                            &ltdiv class="parallax bgImg01"&gt&lt/div&gt
+    
+                            &lth3&gtRecord Store #0001&lt/h3&gt
+                            &ltp&gtLorem ipsum dolor sit amet consectetur adipisicing elit.&lt/p&gt
+    
+                            &ltdiv class="parallax bgImg02"&gt&lt/div&gt
+    
+                        &lt!-- CSS --&gt
+    
+                            .parallax .bgImg01 {
+                                /* Image */
+                                background-image: url(../images/bgImg01);
+                            
+                                /* Set a height */
+                                min-height: 300px;
+                            
+                                /* Code for parallax scroll effect */
+                                background-attachment: fixed;
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                            }
+
+                            .parallax .bgImg02 {
+                                /* Image */
+                                background-image: url(../images/bgImg02);
+                            
+                                /* Set a height */
+                                min-height: 300px;
+                            
+                                /* Code for parallax scroll effect */
+                                background-attachment: fixed;
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                            }
                     </code>
                 </pre>
             </section>
